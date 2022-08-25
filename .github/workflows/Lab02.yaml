@@ -76,7 +76,7 @@ jobs:
     docker-build:
       name: DockerBuild
       runs-on: ubuntu-latest
-      needs: ["quality-gate", "code-vuln-scan"]
+      needs: ["quality-gate"]
       steps:
         - uses: actions/checkout@v3
         - name: Build an image from Dockerfile
