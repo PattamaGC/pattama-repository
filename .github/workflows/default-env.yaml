@@ -6,7 +6,7 @@ on:
 
 env:
   ## Sets environment variable
-  REPOSITORY: ${{ github.pattama-repository }}
+  REPOSITORY: pattamagc-repo
   SERVICE: demo
   TAG: ${{ github.sha }}
 
