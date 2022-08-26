@@ -12,7 +12,7 @@ jobs:
   production:
     runs-on: ubuntu-latest
     #this is how to tell GitHub Action workflow to use secrets from environment secret
-    environment: RPD_Environments 
+    environment: PRD_Environments 
     env:
       TOKEN: ${{ secrets.TOKEN }}
     steps:
