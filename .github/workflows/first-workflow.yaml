@@ -17,4 +17,4 @@ jobs:
         needs: lab-job
         steps:
             - name: Start Second job
-              run: echo 'Hello Second Job'
+              run: echo 'Hello Second Job test'
